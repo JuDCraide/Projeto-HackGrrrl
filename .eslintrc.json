@@ -20,7 +20,12 @@
         "prettier"
     ],
     "rules": {
+      "import/extensions": [
+	      "error",
+	      "ignorePackages"
+      ],
       "no-use-before-define": "off",
+      "react/react-in-jsx-scope": "off",
       "prettier/prettier": "error"
     }
 }
