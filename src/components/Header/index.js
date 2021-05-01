@@ -13,16 +13,33 @@ function Header() {
           <NavLink activeStyle={{
             fontWeight: 700,
             textDecoration: "underline"
-          }} to="/">Empresas</NavLink>
+          }} to="/landing">Empresas</NavLink>
         </li>
         <li>
-          <NavLink to="/news">Notícias</NavLink>
+          <NavLink
+            activeStyle={{
+              fontWeight: 700,
+              textDecoration: "underline"
+            }}
+            to="/news"
+          >Notícias</NavLink>
         </li>
         <li>
-          <NavLink to="/search">Busca</NavLink>
+          <NavLink activeStyle={{
+            fontWeight: 700,
+            textDecoration: "underline"
+          }}
+            to="/search"
+          >Busca</NavLink>
         </li>
         <li>
-          <NavLink to="/about">Sobre</NavLink>
+          <NavLink
+            activeStyle={{
+              fontWeight: 700,
+              textDecoration: "underline"
+            }}
+            to="/about"
+          >Sobre</NavLink>
         </li>
       </ul>
     </div>
