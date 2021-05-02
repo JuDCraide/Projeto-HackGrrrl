@@ -7,7 +7,8 @@ export default createGlobalStyle`
         box-sizing: border-box;
         outline: 0;
     }
-    body {
+    body, #root {
+        height:100vh;
         background-color: #f3f3f3;
         -webkit-font-font-smoothing: antialiased;
     }
