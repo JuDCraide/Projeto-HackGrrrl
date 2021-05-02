@@ -25,14 +25,6 @@ function Header() {
           >Notícias</NavLink>
         </li>
         <li>
-          <NavLink activeStyle={{
-            fontWeight: 700,
-            textDecoration: "underline"
-          }}
-            to="/search"
-          >Busca</NavLink>
-        </li>
-        <li>
           <NavLink
             activeStyle={{
               fontWeight: 700,
