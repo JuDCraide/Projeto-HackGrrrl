@@ -13,7 +13,7 @@ function Header() {
           <NavLink activeStyle={{
             fontWeight: 700,
             textDecoration: "underline"
-          }} to="/landing">Empresas</NavLink>
+          }} to="/companies">Empresas</NavLink>
         </li>
         <li>
           <NavLink
