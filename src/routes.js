@@ -18,7 +18,7 @@ export default function Routes() {
         <Route exact path='/about' component={About} />
         <Route exact path='/contact' component={Contact} />
 
-        <Route exact path='/companies/:id' component={CompanyDetails} />
+        <Route path='/companies/:id' component={CompanyDetails} />
       </Switch>
     </BrowserRouter>
   )
