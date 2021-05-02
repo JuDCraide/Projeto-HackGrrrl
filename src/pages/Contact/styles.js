@@ -21,7 +21,7 @@ export const Container = styled.div`
 
   p{
     color: #595959;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 28px;
   }
@@ -32,7 +32,6 @@ export const Container = styled.div`
 
   form label, legend{
     display: block;
-    font-size: 18px;
     margin-bottom: 10px;
     color: #595959;
     font-size: 18px;
