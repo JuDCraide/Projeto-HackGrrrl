@@ -39,5 +39,5 @@ export const ListContainer = styled.div`
   flex-direction: column;
   max-width: 900px;
   margin: auto;
-  padding: 20px;
+  padding: 20px 0;
 `;
