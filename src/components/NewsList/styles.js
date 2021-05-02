@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ItemContainer = styled.div`
+export const ItemContainer = styled.a`
   background-color: #fff;
   height: 140px;
   width:100%;
@@ -9,6 +9,8 @@ export const ItemContainer = styled.div`
   justify-content:space-between;
   padding: 30px;
   border-radius:10px;
+  color: inherit;
+  text-decoration: none;
 
   div{
     display: flex;
