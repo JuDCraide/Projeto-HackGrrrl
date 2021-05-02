@@ -10,7 +10,7 @@ export default createGlobalStyle`
     body, #root {
         height:100vh;
         background-color: #f3f3f3;
-        -webkit-font-font-smoothing: antialiased;
+        -webkit-font-smoothing: antialiased;
     }
     body,
     input,
