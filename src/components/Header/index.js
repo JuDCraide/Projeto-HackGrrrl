@@ -33,6 +33,15 @@ function Header() {
             to="/about"
           >Sobre</NavLink>
         </li>
+        <li>
+          <NavLink
+            activeStyle={{
+              fontWeight: 700,
+              textDecoration: "underline"
+            }}
+            to="/contact"
+          >Contact</NavLink>
+        </li>
       </ul>
     </div>
   </Container>;
