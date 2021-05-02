@@ -2,10 +2,11 @@
 Template utilizado para avalização de code review na Hack GRRRL 2021 ✨👩‍💻✨
 
 ## Objetivo e Motivações
--
-
+- Temos como propósito, trazer informações relacionadas ás propagandas(se têm diversidade, inclusão ou se são sexistas, machistas, objetificam a mulher...) e como é o engajamento das marcas em prol das causas femininas. 
 ## Que tecnologias vocês usaram no hackathon?
--
+- Algumas das tecnologias usadas foram: 
+-  • Python - No desenvolvimento do Crawler, ultilizado para coleta dos dados necessários.
+-  • React.js  - Utilizado para o desenvolvimento da API
 
 ## Por que vocês escolheram essas tecnologias?
 -
