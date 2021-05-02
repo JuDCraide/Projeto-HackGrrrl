@@ -48,6 +48,11 @@ export const Container = styled.div`
     resize: vertical;
   }
 
+  textarea{
+    min-height: 100px;
+    max-height: 300px;
+  }
+
   .checkbox{
     margin: 20px 0;
   }

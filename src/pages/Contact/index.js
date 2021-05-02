@@ -32,7 +32,7 @@ export default function About() {
           <input type="email" value={email} onChange={e => setEmail(e.target.value)} id="email" required placeholder="seuemail@dominio.com" />
 
           <label htmlFor="mensagem">Mensagem</label>
-          <textarea cols="70" rows="10" value={message} onChange={e => setMessage(e.target.value)} id="mensagem" required placeholder="Mensagem"></textarea>
+          <textarea value={message} onChange={e => setMessage(e.target.value)} id="mensagem" required placeholder="Mensagem"></textarea>
 
           <button type="submit" onClick={e => handleSend(e)} >Enviar</button>
 
