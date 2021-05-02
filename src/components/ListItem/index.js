@@ -1,17 +1,21 @@
 import React from 'react';
+import { FaChevronRight, FaTrophy, FaTimes } from 'react-icons/fa';
 
 import { ItemContainer, ListContainer } from './styles';
 
 function Item({ item }) {
   return <ItemContainer>
     <div>
-      Selo
+      {item.score > 0 ?
+        <FaTrophy size={48} /> :
+        <FaTimes size={48} />
+      }
       <div>
         <strong>{item.name}</strong>
         <span>{item.score} pontos</span>
       </div>
     </div>
-    {'>'}
+    <FaChevronRight size={18} />
   </ItemContainer>;
 };
 

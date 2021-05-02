@@ -14,6 +14,7 @@ export const ItemContainer = styled.a`
 
   div{
     display: flex;
+    flex:1;
 
     div {
       padding-right: 20px;

@@ -12,12 +12,23 @@ export const ItemContainer = styled.div`
 
   div{
     display: flex;
+    flex: 1;
+    align-items:flex-start;
+    justify-content:center;
+
+    svg{
+      width:50px;
+    }
 
     div {
-      padding-left: 20px;
+      padding-left: 70px;
       display:flex;
       flex-direction:column;
     }
+    svg + div {
+      padding-left: 20px;
+    }
+
   }
 
   strong{

@@ -1,4 +1,5 @@
 import React from 'react';
+import {FaChevronRight} from 'react-icons/fa';
 
 import { ItemContainer, ListContainer } from './styles';
 
@@ -10,7 +11,7 @@ function NewsItem({ item }) {
         <span>{item.text} pontos</span>
       </div>
     </div>
-    {'>'}
+    <FaChevronRight size={18}/>
   </ItemContainer>;
 };
 
