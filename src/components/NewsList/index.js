@@ -19,7 +19,7 @@ function NewsList({ itens = [] }) {
   console.log(itens);
   return <ListContainer>
     {itens.map(item => (
-      <NewsItem key={item.name} item={item} />
+      <NewsItem key={item._id} item={item} />
     ))}
   </ListContainer>
 }
