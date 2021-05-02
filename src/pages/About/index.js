@@ -3,7 +3,7 @@ import Header from '../../components/Header';
 
 import { Container, QuemSomos } from './styles';
 
-export default function Landing() {
+export default function About() {
   return (
     <Container>
       <Header />
