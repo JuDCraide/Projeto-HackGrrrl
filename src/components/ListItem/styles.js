@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import {Link} from 'react-router-dom'
 
-export const ItemContainer = styled.div`
+export const ItemContainer = styled(Link)`
   background-color: #fff;
   height: 120px;
   width:100%;
@@ -9,6 +10,8 @@ export const ItemContainer = styled.div`
   justify-content:space-between;
   padding: 30px;
   border-radius:10px;
+  color: inherit;
+  text-decoration: none;
 
   div{
     display: flex;

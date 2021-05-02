@@ -4,7 +4,7 @@ import { FaChevronRight, FaTrophy, FaTimes } from 'react-icons/fa';
 import { ItemContainer, ListContainer } from './styles';
 
 function Item({ item }) {
-  return <ItemContainer>
+  return <ItemContainer to={`companies/${item.id}`}>
     <div>
       {item.score > 0 ?
         <FaTrophy size={48} /> :
