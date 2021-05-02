@@ -1,5 +1,6 @@
-# Frontend Ada's Girls
-
+<p align="center">
+  <h1 align="center">Frontend Ada's Girls</h1>
+</p>
 
 <h4 align="center">
   <a href="#information_source-sobre-o-projeto">Sobre</a> |
