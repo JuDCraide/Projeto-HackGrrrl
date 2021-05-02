@@ -42,7 +42,7 @@ function Header() {
               textDecoration: "underline"
             }}
             to="/contact"
-          >Contact</NavLink>
+          >Contato</NavLink>
         </li>
       </ul>
     </div>

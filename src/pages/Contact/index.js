@@ -22,11 +22,11 @@ export default function About() {
     <Container>
       <Header />
       <div>
-        <h3>Contact</h3>
+        <h3>Entre em Contato</h3>
         <p>Se você é uma empresa que deseja receber o selo, entre em contato para negociar uma consultoria de marketing inclusivo.</p>
         <form>
           <label htmlFor="nome">Nome da Empresa</label>
-          <input type="text" value={name} onChange={e => setName(e.target.value)} id="nome" required placeholder="Seu Nome Completo" />
+          <input type="text" value={name} onChange={e => setName(e.target.value)} id="nome" required placeholder="Nome da sua Empresa" />
 
           <label htmlFor="email">Email</label>
           <input type="email" value={email} onChange={e => setEmail(e.target.value)} id="email" required placeholder="seuemail@dominio.com" />
