@@ -17,7 +17,6 @@ export const ItemContainer = styled.a`
     flex:1;
 
     div {
-      padding-right: 20px;
       display:flex;
       flex-direction:column;
     }
