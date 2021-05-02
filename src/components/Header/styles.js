@@ -20,7 +20,13 @@ export const Container = styled.header`
     margin: 0 36px;
   }
 
+  img{
+    flex:1;
+    height:100%;
+  }
+
   h1{
+    display: none;
     flex:3;
     text-align: center;
     min-width: max-content;
