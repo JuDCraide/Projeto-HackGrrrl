@@ -22,6 +22,7 @@ export const ItemContainer = styled.div`
 
   strong{
     font-size: 24px;
+    padding-bottom: 8px;
   }
 
 
