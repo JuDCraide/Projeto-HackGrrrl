@@ -1,17 +1,17 @@
 import React from 'react';
-import {FaChevronRight} from 'react-icons/fa';
+import { FaChevronRight } from 'react-icons/fa';
 
 import { ItemContainer, ListContainer } from './styles';
 
 function NewsItem({ item }) {
-  return <ItemContainer  target="_blank" href={item.link}>
+  return <ItemContainer target="_blank" href={item.link}>
     <div>
       <div>
         <strong>{item.title}</strong>
-        <span>{item.text} pontos</span>
+        {item.text && <span>{item.text}</span>}
       </div>
     </div>
-    <FaChevronRight size={18}/>
+    <FaChevronRight size={18} />
   </ItemContainer>;
 };
 
