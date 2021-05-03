@@ -13,7 +13,7 @@ Algumas das tecnologias usadas foram:
 - O Crawler foi utilizado por ser uma forma mais rápida e metódica de extrair os dados necessários nos portais de notícias.
 
 ## Qual foi a maior desafio (da parte de desenvolvimento) durante o hackathon? Como vocês resolveram?
--  Houveram algumas complicações ralcionadas ao desenvolvimento do Crawler. Localizar a posição correta das tags e dos links foi um desafio, pois para cada site existe uma estrutura diferente. Para resolver esse desafio foi necessário uma análise detalhada do código de cada página, para assim, localizar corretamente as partes necessárias.
+-  Houveram algumas complicações relacionadas ao desenvolvimento do Crawler. Localizar a posição correta das tags e dos links foi um desafio, pois para cada site existe uma estrutura diferente. Para resolver esse desafio foi necessário uma análise detalhada do código de cada página, para assim, localizar corretamente as partes necessárias.
 
 ## Qual foi o maior aprendizado (ou uma parte do código que vocês achem massa e estão orgulhosas)?
 -
