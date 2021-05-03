@@ -41,7 +41,10 @@ export const Container = styled.header`
   li{
     list-style-type:none;
     padding: 0px 10px;
+
+
     a{
+      font-size: 20px;
       color: inherit;
       text-decoration: none;
       }
