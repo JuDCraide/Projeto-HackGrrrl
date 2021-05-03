@@ -23,13 +23,20 @@ export const Container = styled.div`
 
     h3{
       font-size: 24px;
-      padding: 24px 0 8px;
+      padding: 16px 0 8px;
     }
 
-    p{
+    p, li{
       color: #595959;
-      font-size: 18px;
+      font-size: 20px;
       font-weight: 300;
+      line-height: 28px;
+      padding-bottom: 8px;
+    }
+
+    ul {
+      padding-left:32px;
+      padding-top:8px;
     }
 
 `;
