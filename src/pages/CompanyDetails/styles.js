@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
- '../../assets/emily.jpeg';
+'../../assets/emily.jpeg';
 
 export const Container = styled.div`
     flex: 1;
@@ -27,11 +27,25 @@ export const Container = styled.div`
       padding-bottom: 32px;
     }
 
-    p{
-      color: #595959;
-      font-size: 18px;
-      line-height:24px;
-      font-weight: 300;
-    }
+    p, span{
+    color: #595959;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+  }
 
+  ul{
+    margin-top:16px;
+  }
+
+  li{
+    list-style-type:none;
+    padding: 8px 0;
+
+    strong{
+      font-size: 20px;
+      line-height: 28px;
+      margin-right:16px;
+      }
+  }
 `;
