@@ -5,9 +5,9 @@ Template utilizado para avalização de code review na Hack GRRRL 2021 ✨👩�
 - Mesmo com todos os avanços em pleno século XXI, a sociedade continua sendo em sua maior parte machista. Portanto, temos como propósito, trazer informações relacionadas ás propagandas das marcas (se têm diversidade, inclusão ou se são sexistas, machistas, objetificam a mulher...) e como é o engajamento delas em prol das causas femininas. Tudo isso através de um API, onde essas informações podem ser obtidas de forma simples, fácil e rápida. 
 - 
 ## Que tecnologias vocês usaram no hackathon?
-- Algumas das tecnologias usadas foram: 
--  • Python - No desenvolvimento do Crawler, ultilizado para coleta dos dados necessários.
--  • React.js  - Utilizado para o desenvolvimento da API
+Algumas das tecnologias usadas foram: 
+-  Python - No desenvolvimento do Crawler, ultilizado para coleta dos dados necessários.
+-  React.js  - Utilizado para o desenvolvimento da API
 
 ## Por que vocês escolheram essas tecnologias?
 - O Crawler foi utilizado por ser uma forma mais rápida e metódica de extrair os dados necessários nos portais de notícias.
