@@ -6,7 +6,7 @@ import { ItemContainer, ListContainer } from './styles';
 function Item({ item }) {
   return <ItemContainer to={`companies/${item._id}`}>
     <div>
-      {item.score > 0 ?
+      {item.score > 4 ?
         <FaTrophy size={48} /> :
         <FaTimes size={48} />
       }
