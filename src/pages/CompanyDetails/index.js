@@ -23,7 +23,7 @@ export default function About(props) {
       <Header />
       <div>
         <h3>{company.name}</h3>
-        <h4>{company.score} nota média</h4>
+        <h4>{Number(company.score).toFixed(2)} nota média</h4>
 
         <p>{company.details}</p>
 

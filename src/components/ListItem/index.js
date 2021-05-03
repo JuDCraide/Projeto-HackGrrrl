@@ -12,7 +12,7 @@ function Item({ item }) {
       }
       <div>
         <strong>{item.name}</strong>
-        <span>{item.score} pontos</span>
+        <span>{item.score.toFixed(2)} pontos</span>
       </div>
     </div>
     <FaChevronRight size={18} />
